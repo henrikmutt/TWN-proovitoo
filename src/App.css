@@ -1,0 +1,150 @@
+* {
+    font-family: 'M PLUS ROUNDED 1c';
+    color: #ffffff;
+}
+
+.home-txt {
+    font-size: 50px;
+    font-weight: 700;
+    color: #2cc874;
+    padding: 70px 80px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    background-color: white;
+    padding: 25px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 12px;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.app {
+    display: flex;
+    flex-direction: row;
+    background-color: #435374;
+    background-image: url(./assets/bg-deco-right.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.logo {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 80px 70px;
+    gap: 16px;
+    max-width: 1000px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.intro {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.body-tag {
+    display: flex;
+
+}
+
+.img1{
+    display: flex;
+    
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin: 0 auto;
+    padding: 80px 70px;
+}
+
+.preview-box {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    height: auto;
+    padding: 10px;
+}
+
+.preview-text-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.preview-btn {
+    background-color: #2cc874;
+    color: #435374;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.preview-btn:hover {
+    background-color: #84f5b8;
+}
+
+.list-img {
+    max-width: 200px;
+}
+
+th {
+background-color: #333333;
+padding: 10px;
+}
+
+td {
+padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-width: 1px;
+}
+
+.list-img {
+    width: 100%;
+    height: auto;
+}
+
+.list-btns {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.list-page-btn {
+    background: none;
+    border: none;
+}
